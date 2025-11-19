@@ -1,3 +1,167 @@
+
 body{
-    
+    font-family: Arial, Helvetica, sans-serif;
+    color: #5a5e61;
+    background-color: #ffffff;
 }
+
+h1,h2,h3 {
+    color: #333;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    color: #3b8de2;
+}
+
+.dot{
+    display: flex;
+    flex-direction:row;
+    gap:10px;
+}
+
+
+nav {  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#506b7f;
+    padding: 15px 10%;
+}
+
+nav .pestañas ul{
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    font-size: 16px;
+}
+
+nav li{
+    color: white;
+}
+
+
+
+
+
+.encabezado {
+    height: 400px;
+    background-color: #506b7f;
+    padding: 40px 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.encabezado img {
+    width: 420px;
+}
+
+.encabezado .texto{
+    width: 40%;
+    color: white;
+}
+
+.textoh{
+    color: white;
+    font-size: 42px;
+    margin-bottom: 15px;
+}
+
+.blanco {
+    color: white;
+}
+
+.gris {
+    color: #d1d1d1;
+    margin-bottom: 25px;
+}
+
+.botones {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.boton-redondo{
+    background: #3fa0ff;
+    padding: 10px 20px;
+    border-radius: 25px;
+    color: white;
+}
+
+.dotones p{
+    color: white;
+}
+
+
+li:hover{
+    background-color: #28425a;
+    border-radius: 10px;
+}
+
+
+.barra-iconos{
+    padding: 15px 10%;
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.barra-iconos img{
+    opacity: .6;
+    width: 70px;
+}
+
+
+
+
+.card{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    text-align: center;
+}
+
+.card div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+}
+
+.textoc{
+    padding: 15px;
+}
+
+.botones-cuadrados{
+    border: 1px solid #3fa0ff;
+    padding: 8px 20px;
+    margin-top: 10px;
+    border-radius: 4px;
+}
+
+.titulo-proyectos{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+
+
+
+.selected-projects{
+    padding: 50px 10%;
+    display: flex;
+    flex-direction: column;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.selected-projects .cubo-img{
+    width: 200px;
+    border-radius: 5px;
+}
+
