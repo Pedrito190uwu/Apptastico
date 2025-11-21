@@ -48,7 +48,6 @@ nav li:hover {
     border-radius: 100px;
 }
 
-
 .encabezado {
     height: 400px;
     background-color: #506b7f;
@@ -401,3 +400,45 @@ footer{
     }
  }
 }
+
+@media (max-width: 352px) {
+
+    .encabezado{
+        width: 100%;
+    }
+
+    nav{
+        width: 377px;
+        padding: 5px;  
+    }
+
+    nav .pestañas ul{   
+        display: flex;
+        flex-direction: row;
+    }
+
+    .encabezado .celular-img{
+        width: 100px;
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+    }
+    .barra-iconos{
+        width: 319px;
+        flex-wrap: wrap;
+        gap: 5px;
+    }
+    .selected-projects{
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        width: 100%;
+    }
+
+    footer{
+        flex-direction: column;
+        align-items: center;
+        gap: 5px;
+        width: 100%;
+    }
+  }
